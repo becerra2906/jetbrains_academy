@@ -1,7 +1,7 @@
 ### basic chat bot project done for jetbrains academy python learning route
 
 name = "Aid"
-created_at ="2020"
+created_at = "2020"
 greeting_1 = "Hello! My name is {}".format(name)
 greeting_2 = "I was created in {}".format(created_at)
 
