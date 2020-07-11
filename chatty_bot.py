@@ -1,12 +1,19 @@
 ### basic chat bot project done for jetbrains academy python learning route
 
-print('Hello! My name is Aid.')
-print('I was created in 2020.')
+name = "Aid"
+created_at ="2020"
+greeting_1 = "Hello! My name is {}".format(name)
+greeting_2 = "I was created in {}".format(created_at)
+
+print(greeting_1)
+print(greeting_2)
 print('Please, remind me your name.')
 
 name = input()
 
-print('What a great name you have, ' + name + '!')
+name_message = 'What a great name you have {}!'.format(name)
+
+print(name_message)
 print('Let me guess your age.')
 print('Enter remainders of dividing your age by 3, 5 and 7.')
 
