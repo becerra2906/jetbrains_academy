@@ -35,8 +35,10 @@ print('Now I will prove to you that I can count to any number you want.')
 # read a number and count to it here
 user_number = int(input())
 number = 0
-print(number)
+print(str(number) + "!")
 while number < user_number:
     number = number + 1
-    print(number) 
-print('Completed, have a nice day!')
+    print(str(number) + "!")  
+complete_message = 'Completed, have a nice day!'
+print(complete_message)
+
