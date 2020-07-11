@@ -28,3 +28,14 @@ age = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105
 message = "Your age is {}; that's a good time to start programming!".format(age)
 
 print(message)
+
+
+print('Now I will prove to you that I can count to any number you want.')
+
+# read a number and count to it here
+user_number = int(input())
+number = 0
+while number < user_number:
+    number =+ 1
+    print(number)  
+print('Completed, have a nice day!')
